@@ -1,43 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>웹캠 접근</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column; /* 요소들을 수직으로 배치 */
-  justify-content: center; /* 요소들을 수직 가운데 정렬 */
-  align-items: center; /* 요소들을 수평 가운데 정렬 */
-  background-size: cover;
-  background-position: center;
-}
-
-.welcome-text {
-  color: white;
-  text-align: center; /* 텍스트 가운데 정렬 */
-  margin-bottom: 120px; /* 텍스트와 웹캠 사이의 간격 */
-}
-
-.webcam-container {
-  margin-bottom: 20px;
-}
-
-#webcamVideo {
-  width: 320px;
-  height: 240px;
-  border: 1px solid black;
-  border-radius : 50%;
-}
-  </style>
+  <title>몽환렌즈</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 class="welcome-text">환영합니다. 이곳은 민초가 세상을 지배한 곳입니다!</h1>
+  <div class="loading-overlay">
+    <div class="loading-spinner"></div>
+    <h3>당신을 위한 여행지를 고르는 중이에요! 카메라 접근을 허용하고 떠나볼까요?</h3>
+  </div>
+  <h1 class="welcome-text"></h1>
   <div class="webcam-container">
     <video id="webcamVideo" autoplay></video>
   </div>
-  <script src="webcam.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
