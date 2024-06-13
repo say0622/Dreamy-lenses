@@ -19,7 +19,10 @@ const backgroundsAndTexts = [
 { image: 'study.jpg', text: '환영합니다! 이곳은 미래사회 대학생과 스터디윗미 공간입니다.' },
 { image: 'mintchoco.jpg', text: '환영합니다! 이곳은 민트초코에 지배당한 세상입니다.' },
 { image: 'universe.jpg', text: '환영합니다! 이곳은 우주의 끝입니다.' },
+{ image: 'cloud.jpg', text: '환영합니다! 이곳은 하늘 위의 세상입니다.' },
 { image: 'panda.jpg', text: '환영합니다! 이곳은 판다와 함께 셀카찍을 수 있는 판다가 가득한 공간입니다.' },
+{ image: 'tacoyaki.jpg', text: '환영합니다! 이곳은 세상에서 가장 비싼 1000억짜리 타코야끼를 파는 고급 가게입니다.' },
+{ image: 'sea.jpg', text: '환영합니다! 이곳은 의식의 바다입니다.' },
 ];
 
 // 랜덤 배경 이미지와 텍스트 선택
